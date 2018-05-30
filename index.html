@@ -304,9 +304,16 @@ Se utilizará la plataforma de código abierto QISKIT para simular los algoritmo
             <script>
             var map = new GMaps({
               el: '.ourmap',
-              scrollwheel: false,
+              lat: 19.43,
+              lng: -99.18
+            });
+            var m = map.addMarker({
               lat: 19.429220,
-              lng: -99.206962
+              lng: -99.206962,
+              title: 'WeWork Montes Urales',
+              infoWindow: {
+                content: '<b>WeWork Montes Urales</b><br>Montes Urales 424 Lomas - Virreyes <br>Lomas de Chapultepec V Seccion <br>Ciudad de México, México'
+              }
             });
             </script>
             
