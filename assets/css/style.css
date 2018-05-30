@@ -8,7 +8,7 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'IBMF';
+    font-family: 'IBMPlexSans-Semibold';
     font-weight: 300;
 }
 
@@ -727,7 +727,7 @@ input:-ms-input-placeholder {
 /* Tiny forest section */
 
 .tinyforest{
-	background:url(../images/QuantumMaths.jpg) no-repeat top center;
+	background:url(../images/quantum-computing-dash.jpg) no-repeat top center;
 	background-size:cover;
 }
 .tinyforest_overlay{
@@ -1122,7 +1122,7 @@ a.s_f_8:hover{
 
 /* Maps Section */
 .ourmap{
-	width:100%;
+	width:95%;
 	height:700px;
 	transform: rotate(5deg);
 }
@@ -1150,7 +1150,7 @@ a.s_f_8:hover{
 }
 .footer p a{
 	color:#70c92f;
-	font-family: 'open_sansbold';
+	font-family: 'IBMPlexSans-Semibold';
 }
 .footer p i{
 	color:red;

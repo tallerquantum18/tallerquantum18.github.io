@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: 'open_sansbold';
+    font-family: 'IBMPlexSans-Regular';
     src: url('opensans-bold.eot');
     src: url('opensans-bold.eot?#iefix') format('embedded-opentype'),
          url('opensans-bold.woff2') format('woff2'),
@@ -17,7 +17,7 @@
 
 
 @font-face {
-    font-family: 'open_sanssemibold';
+    font-family: 'IBMPlexSans-Regular';
     src: url('opensans-semibold.eot');
     src: url('opensans-semibold.eot?#iefix') format('embedded-opentype'),
          url('opensans-semibold.woff2') format('woff2'),
@@ -30,7 +30,7 @@
 }
 
 @font-face {
-    font-family: 'open_sanslight';
+    font-family: 'IBMPlexSans-Regular';
     src: url('opensans-light.eot');
     src: url('opensans-light.eot?#iefix') format('embedded-opentype'),
          url('opensans-light.woff2') format('woff2'),
@@ -46,7 +46,7 @@
 
 
 @font-face {
-    font-family: 'open_sansregular';
+    font-family: 'IBMPlexSans-Regular';
     src: url('opensans-regular.eot');
     src: url('opensans-regular.eot?#iefix') format('embedded-opentype'),
          url('opensans-regular.woff2') format('woff2'),
@@ -60,7 +60,7 @@
 
 
 @font-face {
-    font-family: 'coolveticaregular';
+    font-family: 'IBMPlexSans-Regular';
     src: url('coolvetica_rg.eot');
     src: url('coolvetica_rg.eot?#iefix') format('embedded-opentype'),
          url('coolvetica_rg.woff2') format('woff2'),
