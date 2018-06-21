@@ -38,11 +38,11 @@ section:nth-child(even){
 	-o-transform: rotate(-5deg);
 	-ms-transform: rotate(-5deg);
 	transform: rotate(-5deg);
-	box-shadow: 0px 2px 3px rgba(0,0,0,0.4) inset;	
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.4) inset;
 	margin-top: -112px;
-    box-shadow: 0px -1px 3px rgba(0,0,0,0.4);	
-	
-	
+    box-shadow: 0px -1px 3px rgba(0,0,0,0.4);
+
+
 }
 .chikobiko{
 	transform: rotate(5deg);
@@ -104,9 +104,13 @@ p {
     clear: both;
 }
 
-img {
+/* img {
     max-width: 10%;
+} */
+#logo {
+  max-width: 30%;
 }
+
 textarea,
 input[type="text"],
 input[type="password"],
@@ -131,7 +135,7 @@ input[type="color"],
     height: 45px;
 	background:rgba(0, 0, 0, 0.86);
 	border-radius: 0px;
-	
+
 }
 .form-control:focus {
     border-color: #000;
@@ -188,7 +192,7 @@ p:last-child {
 
 
 /*==========================================
-PRE LOADER 
+PRE LOADER
 ==========================================*/
 
 .preloader {
@@ -262,7 +266,7 @@ Section
     padding-bottom: 100px;
     position: relative;
     overflow: hidden;
-	
+
 }
 .sections.footer {
     padding-bottom: 80px;
@@ -382,7 +386,7 @@ Button
     color: #fff;
     background-color: #70c92f;
     border-color: #70c92f;
-    transition: .6s;	
+    transition: .6s;
 }
 .btn-primary:hover{
 	color: #f3ffeb;
@@ -539,23 +543,23 @@ input:-ms-input-placeholder {
     padding-top: 0px;
     padding-bottom: 0px;
     position: fixed;
-    top: 0; 
-	left: 0; 
-	right: 0; 
+    top: 0;
+	left: 0;
+	right: 0;
 	z-index: 300;
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-color: #fff;
 	color:#ffd600;
-	
+
 }
 
 .main_menu_bg{
 	margin-top:0px;
 }
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
-    border-color: transparent; 
+    background-color: transparent;
+    border-color: transparent;
 	transition:.6s;
 }
 
@@ -563,7 +567,7 @@ input:-ms-input-placeholder {
 	color:#fff;
 	background-color:transparent;
 }
- 
+
 .menu-scroll.main_menu_bg .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 	color:#ffd600;
 	background-color:transparent;
@@ -594,7 +598,7 @@ input:-ms-input-placeholder {
 .home{
 	background:url(../images/ibmQT.jpg) no-repeat top center;
 	background-size:cover;
-	
+
 }
 .main_home_content .logo_img{
 	margin-bottom:40px;
@@ -632,17 +636,17 @@ input:-ms-input-placeholder {
     font-size: 50px;
     color: rgb(255, 255, 255);
     border-radius: 50%;
-    border: 2px solid rgb(255, 255, 255);	
+    border: 2px solid rgb(255, 255, 255);
 }
 .about{
-    background: url(../images/Qcomputer.jpg) no-repeat 100% 100%;
-    background-size: cover; 
-	position:relative;	
-		
+  background: url(../images/Qcomputer.jpg) no-repeat 100% 100%;
+  background-size: cover;
+	position:relative;
+
 }
 
 .about_overlay{
-    background:rgba(0, 81, 255, 0.6);
+    background:rgba(0, 81, 255, 0.5);
     width: 100%;
     padding: 130px 100px 321px 100px;
 }
@@ -658,7 +662,7 @@ input:-ms-input-placeholder {
 	font-size: 20px;
     padding: 5px 15px;
 }
-	
+
 .about_top_content i{
 	font-size:24px;
 	color:#999999;
@@ -735,7 +739,7 @@ input:-ms-input-placeholder {
     color: #fff;
     padding: 190px 100px 300px 100px;
     width: 100%;
-    background-size: contain;	
+    background-size: contain;
 }
 .single_tinyforest{}
 
@@ -794,7 +798,7 @@ blockquote {
 
 .pricing{
 	background:url(../images/pricingbg.jpg) no-repeat top center;
-	background-size:cover;	
+	background-size:cover;
 }
 
 .single_pricing_text{
@@ -821,7 +825,7 @@ color: #333333;
     display: inline-block;
     float: right;
 	font-size:36px;
-} 
+}
 
 header p span{
 	font-size:18px;
@@ -951,7 +955,7 @@ footer.singup{
     padding: 20px;
     width: 100%;
     height: 80px;
-    border-bottom: 1px solid #ddd;	
+    border-bottom: 1px solid #ddd;
 }
 .no-border-right{
 	border-right:0px solid;
@@ -1015,7 +1019,7 @@ footer.singup{
 	color:#222222;
 }
 .single_blogs p{
-	font-size:14px;	
+	font-size:14px;
 }
 
 
@@ -1025,11 +1029,11 @@ footer.singup{
 /* contact section */
 
 .contact{
-	background:url(../images/contactbg.jpg) no-repeat top center;
+	background:url(../images/aboutbg.jpg) no-repeat top center;
 	background-size:cover;
 }
 .main_contact{
-	
+
 }
 .contact_content{
     max-width: 80%;
@@ -1079,11 +1083,11 @@ footer.singup{
     height: 35px;
     text-align: center;
 }
-.contact_socail_bookmark li a i{ 
+.contact_socail_bookmark li a i{
     padding:10px;
 }
 a.s_f_1{
-    background:#55ACEE;	
+    background:#55ACEE;
 }
 a.s_f_2{
     background:#3B5998;
@@ -1092,19 +1096,19 @@ a.s_f_3{
     background:#3F729B;
 }
 a.s_f_4{
-    background:#EC6197;	
+    background:#EC6197;
 }
 a.s_f_5{
-    background:#383838;	
+    background:#383838;
 }
 a.s_f_6{
-    background:#919d11;	
+    background:#919d11;
 }
 a.s_f_7{
-    background:#1fbff4;	
+    background:#1fbff4;
 }
 a.s_f_8{
-    background:#47609d;	
+    background:#47609d;
 }
 
 
@@ -1133,7 +1137,7 @@ a.s_f_8:hover{
 	width:200%;
 	height:700px;
 	background:#000;
-	
+
 }
 
 
@@ -1194,5 +1198,3 @@ a.s_f_8:hover{
 	text-decoration: none;
 
 }
-
-
